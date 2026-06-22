@@ -46,7 +46,7 @@
 .card-img {
     width: 100%;
     height: 634.4px;
-    background-image: url("../picture/web\ bgi.webp");
+    background-image: url("../web\ bgi.webp");
     background-size: 100% 100%;
     position: relative;
     z-index: 1;
@@ -1824,7 +1824,7 @@ span{
     width: 85%;
     height: 1260px;
     justify-self: center;
-    background-color: #070708;
+    /* background-color: #070708; */
 }
 .contact-small{
     /* padding-top: 50px; */
@@ -1877,24 +1877,78 @@ span{
 .contact-left-box{
     width: 100%;
     height: 130px;
+    display: flex;
     border-radius: 7px;
     border: 1px solid rgba(255,255,255,0.1);
-    background-color: #421217;
+    background-color: #1c1c1c;
 }
 .contact-left-box-left{
-    width: 20%;
+    width: 27%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background-color: #070708;
+    /* background-color: #070708; */
+}
+.contact-left-box-left-sub{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: color-mix(in srgb, #dc3545, transparent 85%);
+}
+.contact-left-box-right{
+    width: 73%;
+    height: 100%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    /* background-color: #222; */
+    display: flex;
+    align-items: center;
+}
+.contact-left-box-right-sub{
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.contact-left-box-right-sub-1{
+    color: rgba(255,255,255,0.8);
+    font-size: 13.8px;
+    font-weight: 400;
+}
+.contact-left-box:hover{
+    border-color: #ff2e43;
+    filter: drop-shadow(1px 0px 11px rgba(110, 110, 110, 0.5));
+}
+.contact-left-box:hover .contact-left-box-left-sub{
+    background-color: #ff2e43;
+}
+.contact-left-box:hover .contact-left-box-left-sub i{
+    color: whitesmoke !important;
 }
 .contact-left-box-1{
     width: 100%;
     height: 130px;
+    display: flex;
     margin-top: 30px;
     border-radius: 7px;
     border: 1px solid rgba(255,255,255,0.1);
-    background-color: #421217;
+    background-color: #1c1c1c;
+}
+.contact-left-box-1:hover{
+    border-color: #ff2e43;
+    filter: drop-shadow(1px 0px 11px rgba(110, 110, 110, 0.5));
+}
+.contact-left-box-1:hover .contact-left-box-left-sub{
+    background-color: #ff2e43;
+}
+.contact-left-box-1:hover .contact-left-box-left-sub i{
+    color: whitesmoke !important;
 }
 .contact-right{
     width: 65%;

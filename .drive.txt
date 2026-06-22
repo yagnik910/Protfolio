@@ -1,0 +1,14 @@
+.main
+.row - d-flex
+.col-5 ====
+.col-2===
+.col-5===
+
+
+
+
+
+
+
+
+https://drive.google.com/drive/u/0/folders/1Cttkd1Kv_eSWPTgvCm39quU1AjntG5CP?hl=DE&sort=13&direction=a&_ga=2.9060924.806757316.1778359017-1808775936.1778359017
