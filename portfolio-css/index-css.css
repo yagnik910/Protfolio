@@ -2132,11 +2132,87 @@ span{
     width: 60%;
     height: 250px;
     display: flex;
-    background-color: #222;
+    /* background-color: #222; */
 }
 .footer-sub-right-column{
-    width: 25%;
+    width: 26%;
     height: 250px;
     margin-left: 10px;
-    background-color: #070708;
+    color: whitesmoke;
+    font-size: 16.6px;
+    font-weight: 600;
+    /* background-color: #070708; */
+}
+.footer-sub-right-column-sub{
+    margin-top: 15px;
+}
+.footer-sub-right-column-sub a{
+    font-size: 14.5px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.5);
+}
+.footer-sub-right-column-sub a:hover{
+    color: #ff4d4f !important;
+}
+.footer-sub-right-column-contact{
+    width: 40%;
+    height: 250px;
+    margin-left: 10px;
+    color: whitesmoke;
+    font-size: 16.6px;
+    font-weight: 600;
+    /* background-color: #070708; */
+}
+.footer-sub-right-column-contact-address{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.7);
+}
+.footer-sub-right-column-contact-address-1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.7);
+}
+.footer-sub-right-column-contact-address-2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.7);
+}
+.footer-sub-right-column-contact-phone{
+    color: rgba(255,255,255,0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    margin-top: 45px;
+    display: flex;
+}
+.phone-number{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.8);
+}
+.footer-sub-right-column-contact-email{
+    color: rgba(255,255,255,0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    margin-top: 5px;
+    display: flex;
+}
+.email{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.8);
 }
